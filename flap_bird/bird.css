@@ -1,0 +1,73 @@
+body {
+    background-color: #201b2c;
+    font-family: 'Press Start 2P', cursive;
+}
+
+canvas {
+    border: 5px solid #00ff88;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    box-shadow:0px 10px 40px -12px #00ff8052;
+    background-image: url('imagens/fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.backdrop-blur {
+    filter: blur(5px);
+}
+
+#end-menu {
+    display: none;
+    margin: 50px auto;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1000;
+}
+
+#score-display {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.titulo {
+    color: #00ff88;
+    text-shadow: 0px 10px 40px -12px #00ff8052;
+    text-align: center;
+    font-family:'Foldit', cursive;
+    font-family: 'Sigmar', cursive;
+}
+
+button {
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gitprofile {
+    position: relative;
+    text-align: center;
+    color: #00ff88;
+}

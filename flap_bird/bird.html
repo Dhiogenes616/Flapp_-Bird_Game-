@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/walter.png" type="image/png">
+    <link rel="stylesheet" href="bird.css">
+    <title>Flappy Bird</title>
+</head>
+<body>
+    <h1 class="titulo">Flappy Walter</h1>
+    <div id="end-menu">
+        <h1>Game-over!</h1>
+        <p> Score: <span id="end-score"></span></p>
+        <p> Best: <span id="best-score"></span></p>
+        <button id="restart-button">Restart</button>
+    </div>
+    <div id="game-container">
+        <canvas id="game-canvas" width="400" height="600"></canvas>
+        <div id="score-display">0</div>
+    </div>
+
+    <script src="bird.js"></script>
+</body>
+</html>
+
